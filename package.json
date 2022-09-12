@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Assignment to learn streaming files.",
+  "main": "./src/server.js",
+  "scripts": {
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\"",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MTFT-Games/streaming-media-assignment.git"
+  },
+  "author": "Noah Emke",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/MTFT-Games/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/MTFT-Games/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
